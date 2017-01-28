@@ -1,0 +1,6 @@
+{
+  "listenUser": "Someuser",
+  "token": "123",
+  "flood": 15000,
+  "delay": 5000
+}

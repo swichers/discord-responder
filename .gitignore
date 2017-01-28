@@ -1,3 +1,7 @@
+# Project configs
+src/config.json
+src/phrases/*.js
+
 # Logs
 logs
 *.log

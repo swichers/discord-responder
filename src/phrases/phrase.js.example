@@ -1,0 +1,23 @@
+'use strict';
+
+module.exports = {
+  /**
+   * An array of regexes to match against.
+   * @type {Array}
+   */
+  regex: [
+    /Regex to match/,
+    /Another regex/
+  ],
+  /**
+   * A callback to handle the message that matched an above regex.
+
+   * @param  {[type]} message The DiscordJS message that matched.
+   * @param  {Object} match The regex match information.
+   * @param  {DiscordResponder} responder The calling responder.
+   */
+  handler: function (message, match, responder) {
+
+    responder.sendMessage(message.author, 'A message');
+  }
+};
